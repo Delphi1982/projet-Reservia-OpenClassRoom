@@ -1,0 +1,150 @@
+/*FONT*/
+
+@font-face {
+    font-family: 'ralewaythin_italic';
+    src: url('../font/raleway-italic-variablefont_wght-webfont.woff2') format('woff2'),
+         url('../font/raleway-italic-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ralewaythin';
+    src: url('../font/raleway-variablefont_wght-webfont.woff2') format('woff2'),
+         url('../font/raleway-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body
+{
+	font-family: 'ralewaythin', sans-serif;
+}
+
+a 
+{
+	color: black;
+	text-decoration: none;
+}
+
+li
+{
+	list-style: none;
+}
+
+
+/*DISPLAY*/
+
+.search-button
+{
+	display: none;
+}
+
+
+
+/*COLORS*/
+aside, footer
+{
+	background-color: #f2f2f2;
+}
+
+.blue-icon
+{
+	color: #0065fc;
+}
+
+.grey-icon
+{
+	color: #d9d9d9;
+}
+
+.subscribe-link
+{
+	color: #0065fc;
+	font-weight: bold;
+}
+
+.subscribe-link:visited
+{
+	color: #0065fc;
+}
+
+.li-nav-header a
+{
+    color: black;
+    border-bottom: 3px solid #f2f2f2;
+}
+
+.li-nav-header a:link
+{
+    color: black;
+    border-bottom: 3px solid #f2f2f2;
+}
+
+.li-nav-header a:hover
+{
+    color: #0065fc;
+    border-bottom: 3px solid #0065fc;
+}
+
+
+.search-box
+{
+	background-color: white;	
+}
+
+.search-input
+{
+	border: 1px solid #f2f2f2;
+
+}
+
+.map-icon
+{
+	background-color: #f2f2f2;
+}
+
+.search-button-icon
+{
+	background-color: #0065fc;
+	color: white;
+	border: none;
+	border-radius: 30px;
+}
+
+.filter-icon
+{
+	background-color: #deebff;
+}
+
+.filter-button
+{
+	background-color: white;
+	border: 2px solid #d9d9d9;
+}
+
+.info-icon
+{
+	border: 1px solid #d9d9d9;
+}
+
+
+/*dimension*/
+.top-main aside a
+{
+	width: 85%;
+}
+
+
+.search-box img
+{
+	max-width: 100%;
+	height: auto;
+}
+

@@ -85,7 +85,10 @@ h1
 	margin-top: 15px;
 }
 
-
+.bottom-header h2
+{
+	padding-top: 30px;
+}
 
 .subcribe-position
 {
@@ -142,7 +145,6 @@ h1
 	color: #0065fc;
 	/*font-size: 1em;*/
 }
-
 .grey-icon
 {
 	color: #d9d9d9;
@@ -307,13 +309,17 @@ margin-right: 15px;
 
 /*aside*/
 
-.legend-aside1 p, .legend-aside2 p, .legend-aside3 p
+.legend-aside1 p, .legend-aside3 p
 {
-	padding-top: 10px;
-	padding-bottom: 35px;
+	padding-top: 7px;
+	padding-bottom: 55px;
 }
 
-
+.legend-aside2 p
+{
+	padding-top: 7px;
+	padding-bottom: 36px;
+}
 
 .aside h2
 {
@@ -399,11 +405,14 @@ padding-top: 100px;
 
 .show-more 
 {
-	font-weight: bolder;
-	margin-top: 35px;
+	display: block;
+	margin-top: 30px;
 	margin-left: 5%;
-	margin-bottom: 100px;
+	margin-bottom: 50px;
+	font-family: 'ralewaythin_bold';
+	font-weight: bold;
 }
+
 
 /*main*/
 
@@ -444,14 +453,23 @@ padding-top: 100px;
 }
 .search-box-legend
 {
-	/*padding-top: 15px;*/
 	height: 30%;
 	margin-left: 15px;
 }
 
+.search-box-legend h3
+{
+	padding-bottom: 4px;
+}
+
+.search-box-legend p
+{
+	padding-bottom: 4px;
+}
+
 .search-box h3, .aside-search-box h4 
 {
-	font-size: 1.1em;
+	font-size: 1em;
 }
 
 .search-box p, .aside-search-box p 
@@ -482,6 +500,13 @@ padding-top: 100px;
 	margin: auto;
 	margin-bottom: 3%;
 }
+
+.bottom-search-box-6
+{
+	
+	margin-bottom: 50px;
+}
+
 
 .bottom-search-box-img
 {
@@ -527,4 +552,11 @@ footer ul li
 }
 
 
+
+
+/*MEDIAQUERIES*/
+
+@media only screen and (min-width: 1024px) {
+  /* Style adjustments for viewports that meet the condition */
+}
 

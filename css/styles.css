@@ -66,6 +66,7 @@ li
 header 
 {
 	margin: auto;
+	padding-top: 30px;
 }
 
 .top-header 
@@ -78,19 +79,26 @@ h1
 	margin-left: 5%;	
 }
 
-.subcribe-position
+
+.bottom-header p
 {
-	position: absolute;
-	top: 0;
-	right: 5%;
+	margin-top: 15px;
 }
 
 
+
+.subcribe-position
+{
+	position: absolute;
+	top: 17px;
+	right: 5%;
+}
 
 
 .ul-nav
 {
 	display: flex;
+	margin-top: 30px;
 }
 .li-nav-header
 {
@@ -100,7 +108,6 @@ h1
 	width: 50%;
 	text-align: center;
 }
-
 
 
 .li-nav-header a
@@ -125,8 +132,6 @@ h1
 {
     border-bottom: 3px solid #0065fc;
 }
-
-
 
 
 
@@ -162,6 +167,8 @@ h1
 	margin: auto;
 	width: 90%;
 }
+
+
 
 .search-button
 {
@@ -265,29 +272,33 @@ margin-right: 15px;
 	border-radius: 30px;
     margin-left: -50px;
 
-
-
 }
 
 
-
-/*CENTRER L ICONE*/
 .flex-info-icon
 {
 	display: flex;
+	flex-direction: row;
+	padding-top: 25px;
+	padding-bottom: 35px;
 }
 
 .info-icon
 {
+	/*display: flex;*/
 	justify-content: center;
 	align-items: center;
 	border: 1px solid #d9d9d9;
-	width: 22px;
-	height: 22px;
-	border-radius: 30px;
+	width: 25px;
+	height: 20px;
+	border-radius: 100px;
 	text-align: center;
-	font-size: 0.8em;
+	margin-top: 15px;
+	margin-right: 15px;
+	/*padding-left: 5px;*/
+	/*font-size: 0.8em;*/
 }
+
 
 
 
@@ -295,20 +306,38 @@ margin-right: 15px;
 /*--------MAIN--------*/
 
 /*aside*/
+
+.legend-aside1 p, .legend-aside2 p, .legend-aside3 p
+{
+	padding-top: 10px;
+	padding-bottom: 35px;
+}
+
+
+
 .aside h2
 {
 	display: inline-flex;
+	margin-left: 5%;
+	margin-top: 25px;
+	padding-bottom: 25px;
 }
 .trends-icon
 {
 	display: inline-flex;
+	margin-left: 95px;
 }
 
-/*.top-main
+.aside
 {
-	margin: auto;
+	padding-bottom: 30px;
+}
+
+.top-main h2
+{
+	margin-top: 25px;
 	
-}*/
+}
 
 .link-aside-search-box
 {
@@ -327,31 +356,64 @@ margin-right: 15px;
 	flex-direction: row;
 	width: 90%;
 	margin-bottom: 3%;
-	height: 300px; /*trouver une valeur relative*/
+	height: 160px;
 
 	box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    border: 10px solid white;
+    border: 6px solid white;
 }
 
 .aside-search-box-img
 {
 	width: 40%;
-	height: 100%;
+	/*height: 100%;*/
 	object-fit: cover;
 	border-radius:25px 0 0 25px;
+	margin-right: 20px;
 }
 
-.aside-search-box .legend-aside
+.legend-aside1, .legend-aside2, .legend-aside3
+
 {
 	width: 60%;
+	margin-top: 15px;
+}
+
+.blue-icon-aside1
+
+{
+	padding-top: 100px;
+}
+
+.blue-icon-aside2
+{
+padding-top: 45px;
+}
+
+.blue-icon-aside3
+{
+padding-top: 100px;
 }
 
 
+.show-more 
+{
+	font-weight: bolder;
+	margin-top: 35px;
+	margin-left: 5%;
+	margin-bottom: 100px;
+}
 
 /*main*/
 
+
+
+.main h2
+{
+	padding-bottom: 25px;
+	margin-left: 5%;
+}
 .search-box
 {
 	box-shadow: 0px 5px 12px 1px #d9d9d9;
@@ -361,14 +423,14 @@ margin-right: 15px;
 	display: flex;
 	flex-direction: column;
 	width: 90%;
-	height: 375px;
+	height: 220px;
 	margin: auto;
 	margin-bottom: 3%;
 
 	box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    border: 10px solid white;
+    border: 6px solid white;
 	/*padding: 9px;*/
 }
 
@@ -378,11 +440,18 @@ margin-right: 15px;
 	height: 65%;
 	object-fit: cover;
 	border-radius:25px 25px 0 0;
+	margin-bottom: 15px;
+}
+.search-box-legend
+{
+	/*padding-top: 15px;*/
+	height: 30%;
+	margin-left: 15px;
 }
 
 .search-box h3, .aside-search-box h4 
 {
-	font-size: 1.2em;
+	font-size: 1.1em;
 }
 
 .search-box p, .aside-search-box p 
@@ -392,6 +461,13 @@ margin-right: 15px;
 
 
 /*bottom-main*/
+
+.bottom-main h2
+{
+	padding-bottom: 25px;
+	margin-left: 5%;
+	margin-top: 30px;
+}
 .bottom-search-box
 {
 	box-shadow: 0px 5px 12px 1px #d9d9d9;
@@ -402,7 +478,7 @@ margin-right: 15px;
 	display: flex;
 	flex-direction: column;
 	width: 90%;
-	height: 375px;
+	height: 220px;
 	margin: auto;
 	margin-bottom: 3%;
 }
@@ -410,7 +486,7 @@ margin-right: 15px;
 .bottom-search-box-img
 {
 	width: 100%;
-	height: 65%;
+	height: 80%;
 	object-fit: cover;
 	border-radius:25px 25px 0 0;
 }
@@ -418,6 +494,8 @@ margin-right: 15px;
 .bottom-search-box h4
 {
 	font-size: 1.2em;
+	padding-top: 15px;
+	margin-left: 15px;
 }
 
 /*FOOTER*/

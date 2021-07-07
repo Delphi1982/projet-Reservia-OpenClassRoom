@@ -525,8 +525,12 @@ padding-top: 100px;
 
 /*FOOTER*/
 footer
-{
+{	
 	padding:0 5% 50px 5% ;
+}
+.footer-box
+{	
+	display: block;
 }
 
 footer h4
@@ -549,14 +553,5 @@ footer ul li
 .aside, footer
 {
 	background-color: #f2f2f2;
-}
-
-
-
-
-/*MEDIAQUERIES*/
-
-@media only screen and (min-width: 1024px) {
-  /* Style adjustments for viewports that meet the condition */
 }
 

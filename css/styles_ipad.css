@@ -1,0 +1,61 @@
+@media only screen and (min-width: 768px) {
+ 
+
+
+
+
+
+
+.li-nav-header a
+{
+    width: 100%;
+    color: black;
+    text-align: center;
+    padding: 12px 25% ;
+    font-size: 1.3em;
+}
+
+
+.search-button-icon
+{
+	display: none;
+}
+.search-button
+{
+	display: block;
+	background-color: #0065fc;
+	color: white;
+	border: none;
+	border-radius: 0 15px 15px 0;
+	/*height: 50px;*/
+	/*width: 50px;*/
+	/*margin-left: -15px;*/
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+
+
+/*FOOTER*/
+.footer-box
+{
+	display: inline-block;
+	width: 33%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+

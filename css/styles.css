@@ -163,7 +163,6 @@ h1
 }
 
 
-
 .bottom-header
 {
 	margin: auto;
@@ -223,7 +222,7 @@ h1
 	margin-left: -15px;
 }
 
-/*filtres*/
+/*FILTRES*/
 
 
 .filtres h2
@@ -309,17 +308,7 @@ margin-right: 15px;
 
 /*aside*/
 
-.legend-aside1 p, .legend-aside3 p
-{
-	padding-top: 7px;
-	padding-bottom: 55px;
-}
 
-.legend-aside2 p
-{
-	padding-top: 7px;
-	padding-bottom: 36px;
-}
 
 .aside h2
 {
@@ -386,6 +375,19 @@ margin-right: 15px;
 	margin-top: 15px;
 }
 
+.legend-aside1 p, .legend-aside3 p
+{
+	padding-top: 7px;
+	padding-bottom: 40px;
+}
+
+.legend-aside2 p
+{
+	padding-top: 7px;
+	padding-bottom: 40px;
+}
+
+
 .blue-icon-aside1
 
 {
@@ -409,7 +411,7 @@ padding-top: 100px;
 	margin-top: 30px;
 	margin-left: 5%;
 	margin-bottom: 50px;
-	font-family: 'ralewaythin_bold';
+	/*font-family: 'ralewaythin_bold';*/
 	font-weight: bold;
 }
 

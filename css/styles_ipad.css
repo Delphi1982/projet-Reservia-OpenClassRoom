@@ -39,6 +39,16 @@
 
 /*FILTRES*/
 
+.filter-button-species a:hover,.filter-button-species a:active,.filter-button-species a:focus
+{
+    color: #0065fc;
+}
+
+
+.filters-flex
+{
+	margin-right: 0px;
+}
 
 .filter-3,.filter-4
 {
@@ -46,17 +56,25 @@
 }
 
 
+
 /*MAIN*/
+
+/*aside*/
 
 .trends-icon
 {
 	margin-left: 60%;
 }
 
-.contener-search-box{
-	margin: auto;
+
+.contener-search-box
+{
+
 	width: 99.99%;
+	padding-left: 10px;
 }
+
+
 .link-aside-search-box
 {
 	display: inline-flex;
@@ -64,11 +82,6 @@
 	text-align: center;
 	width: 32%;
 	/*margin: auto ;*/
-}
-
-.aside
-{
-	margin-left: 0px;
 }
 
 
@@ -83,11 +96,13 @@
 	height: 160px;
 }
 
+
 .aside-search-box-img
 {
 	padding-top: 1px;
 	margin-right: 10px;
 }
+
 
 .legend-aside1 p, .legend-aside3 p
 {
@@ -95,10 +110,25 @@
 	padding-bottom: 30px;
 }
 
+
 .legend-aside2 p
 {
 	padding-top: 0;
 	padding-bottom: 3px;
+}
+
+
+/*main*/
+
+.main
+{
+	padding-left: 20px;
+}
+
+
+.main h2
+{
+	margin-left: 17px;
 }
 
 
@@ -109,6 +139,8 @@
 	
 
 }
+
+
 .search-box
 {
 
@@ -123,6 +155,7 @@
 
 }
 
+
 .search-box-img
 {
 	width: 100%;
@@ -133,12 +166,21 @@
 }
 
 
+/*bottom-main*/
+
+
+.bottom-main
+{
+	padding-left: 20px;
+}
+
 
 .link-bottom-search-box
 {
 	display: inline-flex;
 	width: 32%;
 }
+
 
 .bottom-search-box
 {
@@ -158,16 +200,16 @@
 	border-radius:25px 25px 0 0;
 }
 
+
+
 /*FOOTER*/
+
 .footer-box
 {
-
 		display: inline-block;
 		vertical-align: top;
 		width: 32%;	
 }
-
-
 
 
 

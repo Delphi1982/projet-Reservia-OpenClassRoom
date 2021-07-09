@@ -39,11 +39,6 @@
 
 /*FILTRES*/
 
-.filter-button-species a:hover,.filter-button-species a:active,.filter-button-species a:focus
-{
-    color: #0065fc;
-}
-
 
 .filters-flex
 {
@@ -172,6 +167,12 @@
 .bottom-main
 {
 	padding-left: 20px;
+}
+
+
+.bottom-main h2
+{
+	margin-left: 2%;
 }
 
 

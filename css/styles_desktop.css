@@ -2,12 +2,221 @@
  
 
 
+/*HEADER*/
+
+
+.subcribe-position a
+{
+
+	right: 5%;
+	font-size: 1em;
+}
+
+
+.subcribe-position
+{
+	top: 14px;
+
+}
+
+
+/*.subscribe-link 
+{
+	margin-left: 0px;
+}*/
+
+
+.ul-nav
+{
+	position: absolute;
+	top: 0;
+	right: 12%;
+	width: 30%;
+
+	margin-top: 0;
+}
+
+
+.li-nav-header
+{
+	/*vertical-align: middle;*/
+	border-top: 3px solid #f2f2f2;
+	border-bottom: none;
+	padding-top: 42px;
+	width: 50%;
+	/*text-align: center;*/
+
+}
+
+
+.li-nav-header a
+{
+/*    width: 100%;
+    color: black;
+    text-align: center;*/
+    padding-top: 50px;
+    /*padding: 12px 25% ;*/
+    font-size: 1em;
+}
+
+
+/*/.li-nav-header a:hover,.li-nav-header a:active,.li-nav-header a:focus
+{
+    color: #0065fc;
+}**/
+.li-nav-header:hover,.li-nav-header:active,.li-nav-header:focus
+{
+    border-top: 3px solid #0065fc;
+    border-bottom: none;
+}
+
+
+/*FILTRES*/
+
+.filtres
+{
+	display: inline-block;
+}
+
+
+/*MAIN*/
+
+/*aside*/
+
+.aside
+{
+	border-radius: 20px;
+	width:28%;
+	height:570px;
+	padding-top: 12px;
+	padding-bottom: 30px;
+	margin-left: 40px;
+	margin-right: 50px;
+
+}
+
+
+.aside-search-box
+{
+	border-right: 40px solid white;
+	height: 140px;
+}
+.aside h2
+{
+	margin-left: 27px;
+}
+.trends-icon
+{
+	margin-left: 25%;
+}
+
+
+.contener-search-box
+{
+
+	/*width: 100%;*/
+	padding-left: 10px;
+}
+
+
+.link-aside-search-box
+{
+	display: flex;
+	flex-direction: column;
+	/*align-content: space-between;*/
+	text-align: center;
+	width: 85%;
+	margin-left: 15px;
+	padding-bottom: 25px;
+
+}
 
 
 
+.legend-aside1 p, .legend-aside3 p
+{
+	
+	padding-bottom: 30px;
+}
 
 
+.legend-aside2 p
+{
+	padding-top: 10px;
+	padding-bottom: 27px;
+}
 
+
+/*MAIN*/
+
+.top-main
+{
+	display: flex;
+	flex-direction: row-reverse;
+
+	/*margin-right: 50px;*/
+}
+
+.main
+{
+	background-color: #f2f2f2;
+	border-radius: 20px;
+	width: 60%;
+	height: 580px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+
+.main
+{
+	padding-left: 20px;
+}
+
+
+.main h2
+{
+	
+	margin-left: 15px;
+}
+
+
+.link-search-box
+{
+	display: inline-flex;
+	width: 30%;
+	padding-right: 10px;
+	padding-bottom: 25px;
+	padding-left: 10px;
+	
+
+}
+
+
+.search-box
+{
+
+	width: 100%;
+	height: 200px;
+
+}
+
+
+.search-box-img
+{
+	width: 100%;
+	height: 70%;
+	/*object-fit: cover;
+	border-radius:25px 25px 0 0;*/
+	margin-bottom: 10px;
+}
+
+
+.show-more
+{
+	margin-left: 10px;
+	padding-bottom: 10px;
+}
 
 
 

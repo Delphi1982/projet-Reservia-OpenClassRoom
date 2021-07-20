@@ -20,11 +20,6 @@
 }
 
 
-/*.subscribe-link 
-{
-	margin-left: 0px;
-}*/
-
 
 .ul-nav
 {
@@ -75,9 +70,15 @@
 
 .filtres
 {
-	display: inline-block;
+	display: flex;
 }
 
+
+.filters-flex
+{
+margin-top: 15px;
+margin-right: 15px;
+}
 
 /*MAIN*/
 
@@ -165,6 +166,7 @@
 	height: 580px;
 	padding-top: 10px;
 	padding-bottom: 20px;
+	/*PROBLÈME DE MARGES ET DE DIMENSIONS DES BOITES À RÉGLER CAR LES BOITES SORTENT DE LA ZONE SUR UN TELEVISEUR*/
 }
 
 
@@ -221,7 +223,46 @@
 
 
 
+.bottom-main-desktop /*c'est la boîte qui contient les 6 activités et qui ne comprend pas le h2*/
+{
+	display: inline-flex;
+	margin-bottom: 100px;
+}
+
+.bottom-search-box
+{
+	width: 100%;
+}
+.bottom-search-box-1,.bottom-search-box-4
+{
+	height: 100%;
+}
+
+.bottom-search-box-2
+{
+	height: 50%;
+	width: 1700%;
+}
+.bottom-search-box-3
+{
+	height: 30%;
+}
+
+.bottom-search-box-5,.bottom-search-box-6
+{
+	height: 40%;
+}
+
+.bottom-search-box-column-1,.bottom-search-box-column-2 /*c'est les 2 boîtes qui contiennent les activités en colonnes pour pouvoir changer les flex*/
+{
+	height: 100%;
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+}
+
 
 
 }
+
 

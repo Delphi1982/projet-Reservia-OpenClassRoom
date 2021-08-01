@@ -69,17 +69,33 @@
 /*FILTRES*/
 
 
+.filtres 
+{
+	display: flex;
+	margin-top: 20px;
+}
+
+.filtres h2
+
+{
+	margin-top: 0px;
+}
+
+
+
+
+
 .filters-flex
 {
 	margin-left: 15px;
-	margin-top: -5px;
+	/*margin-top: -5px;*/
 
 }
 
-.filter-1
+/*.filter-1
 {
 	margin-left: 100px;
-}
+}*/
 
 /*MAIN*/
 
@@ -257,30 +273,30 @@
 
 .bottom-search-box-2
 {
-	height: 70%;
-	width: 60%;
-	margin: 15%
+	height: 100%;
+	width: 100%;
+	margin: 0%
 }
 
 
 .bottom-search-box-3
 {
-	height: 40%;
-	width: 60%;
-	margin: 15%;
+	height: 100%;
+	width: 100%;
+	margin: 0%;
 }
 
 
 .bottom-search-box-5,.bottom-search-box-6
 {
-	height: 40%;
+	height: 100%;
 }
 
 
 .bottom-search-box-column-1,.bottom-search-box-column-2 /*c'est les 2 boîtes qui contiennent les activités en colonnes pour pouvoir changer les flex*/
 {
 	height: 100%;
-	width: 60%;
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 }
@@ -289,7 +305,7 @@
 .link-bottom-search-box
 {
 	margin-left: 2%;
-	width: 70%;
+	width: 100%;
 }
 
 .bottom-search-box-img

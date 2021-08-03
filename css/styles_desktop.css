@@ -105,12 +105,12 @@
 .aside
 {
 	border-radius: 20px;
-	width:28%;
+	width:30%;
 	height:570px;
 	padding-top: 12px;
 	padding-bottom: 30px;
-	margin-left: 40px;
-	margin-right: 50px;
+	margin-left: 20px;
+	margin-right: 5px;
 
 }
 
@@ -122,11 +122,11 @@
 }
 .aside h2
 {
-	margin-left: 27px;
+	margin-left: 10%;
 }
 .trends-icon
 {
-	margin-left: 20%;
+	margin-left: 15%;
 }
 
 
@@ -155,16 +155,21 @@
 .legend-aside1 p, .legend-aside3 p
 {
 	
-	padding-bottom: 30px;
+	padding-bottom: 5%;
 }
 
 
 .legend-aside2 p
 {
-	padding-top: 10px;
-	padding-bottom: 27px;
+	margin-top: 0px;
+	padding-bottom: 5%;
 }
 
+
+/*.legend-aside2 h4
+{
+padding-bottom: 5%;
+}*/
 
 /*MAIN*/
 

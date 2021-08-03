@@ -101,6 +101,7 @@
 
 /*aside*/
 
+
 .aside
 {
 	border-radius: 20px;
@@ -125,7 +126,7 @@
 }
 .trends-icon
 {
-	margin-left: 25%;
+	margin-left: 20%;
 }
 
 
@@ -171,8 +172,8 @@
 {
 	display: flex;
 	flex-direction: row-reverse;
-
-	/*margin-right: 50px;*/
+	width: 100%;
+	/*margin: auto;*/
 }
 
 .main
@@ -187,12 +188,6 @@
 }
 
 
-.main
-{
-	padding-left: 20px;
-}
-
-
 .main h2
 {
 	
@@ -203,10 +198,10 @@
 .link-search-box
 {
 	display: inline-flex;
-	width: 30%;
-	padding-right: 10px;
+	width: 31%;
+	padding-right: 5px;
 	padding-bottom: 25px;
-	padding-left: 10px;
+	padding-left: 5px;
 	
 
 }
@@ -225,8 +220,6 @@
 {
 	width: 100%;
 	height: 70%;
-	/*object-fit: cover;
-	border-radius:25px 25px 0 0;*/
 	margin-bottom: 10px;
 }
 
@@ -238,7 +231,14 @@
 }
 
 
+/*BOTTOM-MAIN*/
 
+.bottom-main
+{
+	width: 90%;
+	margin: auto;
+	padding-left: 0;
+}
 
 .bottom-main h2 
 {
@@ -248,71 +248,83 @@
 
 .bottom-main-desktop 
 {
-	display: inline-flex;
+	height: 400px;
 	margin-bottom: 100px;
+
+	-webkit-box-pack: justify;
+	-moz-box-pack: justify;
+	justify-content: space-between;
 }
 
-.bottom-search-box
-{
-	width: 100%;
-	
-}
-
-
-.bottom-search-box-1,.bottom-search-box-4
+.bottom-search-box-column-1,.bottom-search-box-column-2 
 {
 	height: 100%;
-
+	flex-direction: column;
+	justify-content: space-between;
 }
 
-/*.bottom-search-box-4
+
+
+.link-bottom-size-1,.link-bottom-size-4,.bottom-search-box-column-1,.bottom-search-box-column-2
 {
-	padding-left: ;
+	height: 100%;
+	width: 24%;
 }
-*/
+.link-bottom-size-2,.link-bottom-size-3,.link-bottom-size-5,.link-bottom-size-6
+{
+	width: 100%;
+}
+.link-bottom-size-2{
+	height: 50%;
+}
+.link-bottom-size-3{
+	height: 40%;
+}
+.link-bottom-size-5{
+	height: 35%;
+}
+.link-bottom-size-6{
+	height: 55%;
+}
+
+/*.bottom-search-box-1,.bottom-search-box-4
+{
+	width: 25%;
+}*/
+.bottom-search-box
+{
+	height: 100%;
+	width: 100%;
+	margin: 0%;	
+}
+
+
+
+
 
 .bottom-search-box-2
 {
-	height: 100%;
-	width: 100%;
-	margin: 0%
-}
-
-
-.bottom-search-box-3
-{
-	height: 100%;
+	/*height: 100%;*/
 	width: 100%;
 	margin: 0%;
 }
 
 
-.bottom-search-box-5,.bottom-search-box-6
+.bottom-search-box-3
 {
-	height: 100%;
-}
-
-
-.bottom-search-box-column-1,.bottom-search-box-column-2 /*c'est les 2 boîtes qui contiennent les activités en colonnes pour pouvoir changer les flex*/
-{
-	height: 100%;
 	width: 100%;
-	display: flex;
-	flex-direction: column;
+	margin: 0%;
 }
 
-
-.link-bottom-search-box
-{
-	margin-left: 2%;
-	width: 100%;
-}
 
 .bottom-search-box-img
 {
-	height: 110%;
+	height: 95%;
 }
-
+.bottom-search-box-column-1 .bottom-search-box-img,.bottom-search-box-column-2 .bottom-search-box-img
+{
+	height: 80%;
+}
 
 
 

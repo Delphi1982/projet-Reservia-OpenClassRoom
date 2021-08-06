@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1281px) {
  
 
 
@@ -7,7 +7,6 @@
 
 .subcribe-position a
 {
-
 	right: 5%;
 	font-size: 1em;
 }
@@ -16,7 +15,6 @@
 .subcribe-position
 {
 	top: 14px;
-
 }
 
 
@@ -27,38 +25,25 @@
 	top: 0;
 	right: 12%;
 	width: 30%;
-
 	margin-top: 0;
 }
 
 
 .li-nav-header
 {
-	/*vertical-align: middle;*/
 	border-top: 3px solid #f2f2f2;
 	border-bottom: none;
 	padding-top: 42px;
 	width: 50%;
-	/*text-align: center;*/
-
 }
 
 
 .li-nav-header a
 {
-/*    width: 100%;
-    color: black;
-    text-align: center;*/
     padding-top: 50px;
-    /*padding: 12px 25% ;*/
     font-size: 1em;
 }
 
-
-/*/.li-nav-header a:hover,.li-nav-header a:active,.li-nav-header a:focus
-{
-    color: #0065fc;
-}**/
 .li-nav-header:hover,.li-nav-header:active,.li-nav-header:focus
 {
     border-top: 3px solid #0065fc;
@@ -88,19 +73,18 @@
 .filters-flex
 {
 	margin-left: 15px;
-	/*margin-top: -5px;*/
-
 }
 
-/*.filter-1
-{
-	margin-left: 100px;
-}*/
 
 /*MAIN*/
 
 /*aside*/
-
+.top-main
+{
+	display: flex;
+	flex-direction: row-reverse;
+	width: 95%;
+}
 
 .aside
 {
@@ -109,7 +93,7 @@
 	height:570px;
 	padding-top: 12px;
 	padding-bottom: 30px;
-	margin-left: 20px;
+	margin-left: 0;
 	margin-right: 5px;
 
 }
@@ -132,9 +116,7 @@
 
 .contener-search-box
 {
-
-	/*width: 100%;*/
-	padding-left: 10px;
+	padding-left: 0;
 }
 
 
@@ -142,19 +124,17 @@
 {
 	display: flex;
 	flex-direction: column;
-	/*align-content: space-between;*/
 	text-align: center;
 	width: 85%;
-	margin-left: 15px;
-	padding-bottom: 25px;
-
+	margin-left: 0;
+	margin: auto;
+	padding-bottom: 15px;
 }
 
 
 
 .legend-aside1 p, .legend-aside3 p
 {
-	
 	padding-bottom: 5%;
 }
 
@@ -166,20 +146,9 @@
 }
 
 
-/*.legend-aside2 h4
-{
-padding-bottom: 5%;
-}*/
-
 /*MAIN*/
 
-.top-main
-{
-	display: flex;
-	flex-direction: row-reverse;
-	width: 100%;
-	/*margin: auto;*/
-}
+
 
 .main
 {
@@ -189,21 +158,20 @@ padding-bottom: 5%;
 	height: 580px;
 	padding-top: 10px;
 	padding-bottom: 20px;
-	/*PROBLÈME DE MARGES ET DE DIMENSIONS DES BOITES À RÉGLER CAR LES BOITES SORTENT DE LA ZONE SUR UN TELEVISEUR*/
 }
 
 
 .main h2
 {
 	
-	margin-left: 15px;
+	margin-left: 4%;
 }
 
 
 .link-search-box
 {
 	display: inline-flex;
-	width: 31%;
+	width: 30%;
 	padding-right: 5px;
 	padding-bottom: 25px;
 	padding-left: 5px;
@@ -231,8 +199,10 @@ padding-bottom: 5%;
 
 .show-more
 {
-	margin-left: 10px;
-	padding-bottom: 10px;
+	margin-left: 4%;
+	margin-top: 0;
+	margin-bottom: 0;
+	align-items: center;
 }
 
 
@@ -247,7 +217,7 @@ padding-bottom: 5%;
 
 .bottom-main h2 
 {
-	margin-top: 5%;
+	margin-top: 4%;
 	margin-left: 2%;
 }
 
@@ -292,10 +262,7 @@ padding-bottom: 5%;
 	height: 55%;
 }
 
-/*.bottom-search-box-1,.bottom-search-box-4
-{
-	width: 25%;
-}*/
+
 .bottom-search-box
 {
 	height: 100%;
@@ -309,7 +276,6 @@ padding-bottom: 5%;
 
 .bottom-search-box-2
 {
-	/*height: 100%;*/
 	width: 100%;
 	margin: 0%;
 }
@@ -337,5 +303,6 @@ padding-bottom: 5%;
 
 
 }
+
 
 

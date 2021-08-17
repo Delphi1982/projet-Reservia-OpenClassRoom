@@ -131,11 +131,22 @@ h1
 {
     color: #0065fc;
 }
+
+
 .li-nav-header:hover,.li-nav-header:active,.li-nav-header:focus
 {
     border-bottom: 3px solid #0065fc;
 }
 
+
+.search-input
+{
+	font-weight: bold;
+	font-size: 1em;
+	margin-right: 25px;
+	padding-left: 20px;
+
+}
 
 
 /*Bottom header*/

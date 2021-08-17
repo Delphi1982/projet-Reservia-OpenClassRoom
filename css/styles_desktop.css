@@ -61,6 +61,12 @@
 	margin-left: 3%;
 }
 
+
+.bottom-header h2 
+{
+	font-size: 1.1em;
+}
+
 /*FILTRES*/
 
 
@@ -103,7 +109,7 @@
 	height:570px;
 	padding-top: 12px;
 	padding-bottom: 30px;
-	margin-left: 0;
+	margin-left: 2%;
 	margin-right: -30px;
 
 }
@@ -117,6 +123,7 @@
 .aside h2
 {
 	margin-left: 9%;
+	font-size: 1.1em;
 }
 
 .aside h4 
@@ -185,7 +192,7 @@
 
 .main h2
 {
-	
+	font-size: 1.1em;
 	margin-left: 4%;
 }
 
@@ -239,6 +246,7 @@
 
 .bottom-main h2 
 {
+	font-size: 1.1em;
 	margin-top: 4%;
 	margin-left: 2%;
 }
@@ -256,7 +264,7 @@
 
 .bottom-main-desktop h4
 {
-	font-size: medium;
+	font-size: 0.8em;
 }
 
 

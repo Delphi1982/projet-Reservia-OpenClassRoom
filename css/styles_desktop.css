@@ -1,8 +1,13 @@
-@media only screen and (min-width: 1100px) {
+@media only screen and (min-width: 1024px) {
  
 
 
 /*HEADER*/
+
+.logo-img
+{
+	margin-left: -2%;
+}
 
 
 .subcribe-position a
@@ -50,6 +55,11 @@
     border-bottom: none;
 }
 
+
+.bottom-header
+{
+	margin-left: 3%;
+}
 
 /*FILTRES*/
 
@@ -106,8 +116,20 @@
 }
 .aside h2
 {
-	margin-left: 10%;
+	margin-left: 9%;
 }
+
+.aside h4 
+{
+	font-size: 0.9em;
+}
+
+.aside p
+{
+	font-size: 0.8em;
+}
+
+
 .trends-icon
 {
 	margin-left: 15%;
@@ -135,14 +157,14 @@
 
 .legend-aside1 p, .legend-aside3 p
 {
-	padding-bottom: 5%;
+	padding-bottom: 30%;
 }
 
 
 .legend-aside2 p
 {
 	margin-top: 7px;
-	padding-bottom: 5%;
+	padding-bottom: 30%;
 }
 
 
@@ -224,12 +246,19 @@
 .bottom-main-desktop 
 {
 	height: 400px;
-	margin-bottom: 100px;
+	margin-bottom: 103px;
 
 	-webkit-box-pack: justify;
 	-moz-box-pack: justify;
 	justify-content: space-between;
 }
+
+
+.bottom-main-desktop h4
+{
+	font-size: medium;
+}
+
 
 .bottom-search-box-column-1,.bottom-search-box-column-2 
 {
@@ -296,7 +325,6 @@
 {
 	height: 80%;
 }
-
 
 
 
